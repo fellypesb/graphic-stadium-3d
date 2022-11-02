@@ -1,0 +1,37 @@
+#VRML V2.0 utf8
+
+Transform{
+	translation	0 0.01 0
+	children [
+		 Shape {
+			 	appearance Appearance {
+				texture ImageTexture {
+					url "tex_chao2.jpg"
+				}
+					
+			}
+			geometry Cylinder {
+				radius 8
+				height 0.01
+			}
+		}
+	]
+}
+
+
+Transform{
+	children [
+		 Shape {
+			 	appearance Appearance {
+				texture ImageTexture {
+					url "tex_chao2.jpg"
+				}
+					
+			}
+			geometry Cylinder {
+				radius 10
+				height 0.01
+			}
+		}
+	]
+}

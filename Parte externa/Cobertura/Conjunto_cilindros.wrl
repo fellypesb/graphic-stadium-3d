@@ -1,0 +1,180 @@
+#VRML V2.0 utf8
+
+
+
+Group {
+	children [
+
+			
+		Transform {
+			translation	-2.5 -2 2.42
+			rotation 1 0 0 2
+			children [
+				Inline {
+					url	"cilindro_cobertura_und.wrl"
+				}	
+	
+			] 
+
+		}	
+		
+		Transform {
+			translation	-2.095 -2 2.42
+			rotation 1 0 0 2
+			children [
+				Inline {
+					url	"cilindro_cobertura_und.wrl"
+				}	
+				
+			] 
+
+		}
+		
+		Transform {
+			translation	-1.69 -2 2.42
+			rotation 1 0 0 2
+			children [
+				Inline {
+					url	"cilindro_cobertura_und.wrl"
+				}	
+				
+			] 
+
+		}
+		
+		Transform {
+			translation	-1.285 -2 2.42
+			rotation 1 0 0 2
+			children [
+				Inline {
+					url	"cilindro_cobertura_und.wrl"
+				}	
+				
+			] 
+
+		}
+
+		Transform {
+			translation	-0.88 -2 2.42
+			rotation 1 0 0 2
+			children [
+				Inline {
+					url	"cilindro_cobertura_und.wrl"
+				}	
+				
+			] 
+
+		}
+
+		Transform {
+			translation	-0.475 -2 2.42
+			rotation 1 0 0 2
+			children [
+				Inline {
+					url	"cilindro_cobertura_und.wrl"
+				}	
+				
+			] 
+
+		}
+
+		Transform {
+			translation	-0.07 -2 2.42
+			rotation 1 0 0 2
+			children [
+				Inline {
+					url	"cilindro_cobertura_und.wrl"
+				}	
+				
+			] 
+
+		}
+
+		Transform {
+			translation	0.335 -2 2.42
+			rotation 1 0 0 2
+			children [
+				Inline {
+					url	"cilindro_cobertura_und.wrl"
+				}	
+				
+			] 
+
+		}
+
+		Transform {
+			translation	0.74 -2 2.42
+			rotation 1 0 0 2
+			children [
+				Inline {
+					url	"cilindro_cobertura_und.wrl"
+				}	
+				
+			] 
+
+		}
+
+		Transform {
+			translation	1.145 -2 2.42
+			rotation 1 0 0 2
+			children [
+				Inline {
+					url	"cilindro_cobertura_und.wrl"
+				}	
+				
+			] 
+
+		}
+
+		Transform {
+			translation	1.55 -2 2.42
+			rotation 1 0 0 2
+			children [
+				Inline {
+					url	"cilindro_cobertura_und.wrl"
+				}	
+				
+			] 
+
+		}
+
+		Transform {
+			translation	1.955 -2 2.42
+			rotation 1 0 0 2
+			children [
+				Inline {
+					url	"cilindro_cobertura_und.wrl"
+				}	
+				
+			] 
+
+		}
+
+		Transform {
+			translation	2.36 -2 2.42
+			rotation 1 0 0 2
+			children [
+				Inline {
+					url	"cilindro_cobertura_und.wrl"
+				}	
+				
+			] 
+
+		}
+
+		Transform {
+			translation	2.765 -2 2.42
+			rotation 1 0 0 2
+			children [
+				Inline {
+					url	"cilindro_cobertura_und.wrl"
+				}	
+				
+			] 
+
+		}
+
+	]
+}
+
+

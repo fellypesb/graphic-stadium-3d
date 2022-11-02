@@ -1,0 +1,112 @@
+#VRML V2.0 utf8
+
+#VRML V2.0 utf8
+											  #VRML V2.0 utf8
+
+Transform {
+	translation -1 -3 -1.5
+	children [
+		Inline {
+			url "./filaCadeiras_quinas.wrl"
+		}
+	]
+}
+
+Transform {
+	translation -1 -1.5 -0.8
+	children [
+		Inline {
+			url "./filaCadeiras_quinas.wrl"
+		}
+	]
+}
+
+Transform {
+	translation -1 0.3 0.1
+	children [
+		Inline {
+			url "./filaCadeiras_quinas.wrl"
+		}
+	]
+}
+
+Transform {
+	translation -1 2 1
+	children [
+		Inline {
+			url "./filaCadeiras_quinas.wrl"
+		}
+	]
+}
+
+Transform {
+	translation -1 3.5 1.9 
+	children [
+		Inline {
+			url "./filaCadeiras_quinas.wrl"
+		}
+	]
+}
+
+Transform {
+	translation -1 5.3 2.8
+	children [
+		Inline {
+			url "./filaCadeiras_quinas.wrl"
+		}
+	]
+}
+
+Transform {
+	translation -1 7 3.7
+	children [
+		Inline {
+			url "./filaCadeiras_quinas_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	translation -1 8.8 4.7
+	children [
+		Inline {
+			url "./filaCadeiras_quinas_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	translation -1 10.8 5.7
+	children [
+		Inline {
+			url "./filaCadeiras_quinas_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	translation -1 12.5 6.7
+	children [
+		Inline {
+			url "./filaCadeiras_quinas_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	translation -1 14.5 7.8
+	children [
+		Inline {
+			url "./filaCadeiras_quinas_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	translation -1 16.5 8.8
+	children [
+		Inline {
+			url "./filaCadeiras_quinas_verdes.wrl"
+		}
+	]
+}

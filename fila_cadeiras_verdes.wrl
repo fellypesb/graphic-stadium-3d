@@ -1,0 +1,715 @@
+#VRML V2.0 utf8
+
+#VRML V2.0 utf8
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -58 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -56 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -54 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -52 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -50 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -48 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -46 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -44 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -42 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -40 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -38 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -36 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -34 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -32 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -30 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -28 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -26 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -24 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -22 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -20 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -18 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -16 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -14 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -12 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -10 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -8 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -6 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -4 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -2 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation -0 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 2 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 4 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 6 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 8 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 10 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 12 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 14 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 16 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 18 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 20 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 22 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 24 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 26 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 28 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 30 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 32 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 34 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 36 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 38 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 40 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 42 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 44 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 46 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 48 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 50 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 52 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 54 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 56 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 1.4
+	translation 58 61 2
+
+	children [
+
+		Inline {
+			url "./cadeira_verdes.wrl"
+		}
+	]
+}

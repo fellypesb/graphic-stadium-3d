@@ -1,0 +1,2284 @@
+#VRML V2.0 utf8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Transform{
+translation	0 0 -0.3
+children[
+
+Shape{
+
+appearance Appearance{
+texture	ImageTexture{
+url	"C:\Users\felly\Documents\2022.1\Computação Gráfica\texture\textura_grama.jpg"
+}
+
+textureTransform TextureTransform{
+center 0 0
+rotation 0
+scale 5 5
+
+}
+
+}
+
+geometry Box{
+size 120 90 0.5
+}
+}
+]
+}
+
+
+Transform{
+translation	0 0 -0.35
+children[
+
+Shape{
+
+appearance Appearance{
+texture	ImageTexture{
+url	"C:\Users\felly\Documents\2022.1\Computação Gráfica\texture\textura_grama.jpg"
+}
+
+textureTransform TextureTransform{
+center 0 0
+rotation 0
+scale 5 5
+
+}
+
+}
+
+geometry Box{
+size 130 100 0.5
+}
+}
+]
+}
+
+
+Transform{
+translation	0 0 -0.37
+children[
+
+Shape{
+
+appearance Appearance{
+texture	ImageTexture{
+url	"C:\Users\felly\Documents\2022.1\Computação Gráfica\texture\textura_track.jpg"
+}
+
+textureTransform TextureTransform{
+center 1 1
+rotation 0
+scale 5 5
+
+}
+
+
+}
+
+geometry Box{
+size 144 114 0.5
+}
+}
+]
+}
+
+Transform{
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor .61 .61 .61
+specularColor .77 .76 .76
+ambientIntensity .14
+shininess .9
+transparency 1
+}
+
+}
+
+geometry Sphere{
+radius 9.15
+}
+}
+]
+}
+
+
+Transform{
+rotation 1 0 0 1.570796 
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+ambientIntensity 0
+shininess 0
+}
+
+}
+
+geometry Cylinder{
+height 0.001
+radius 0.24
+}
+}
+]
+}
+
+Transform{
+rotation 1 0 0 1.570796 
+translation	0 0 -0.01
+
+children[
+
+Shape{
+
+appearance Appearance{
+texture	ImageTexture{
+url	"C:\Users\felly\Documents\2022.1\Computação Gráfica\texture\textura_grama.jpg"
+}
+
+textureTransform TextureTransform{
+center 0 0
+rotation 0
+scale 1 1
+
+}
+
+}
+
+geometry Cylinder{
+height 0.001
+radius 9.15
+}
+}
+]
+}
+
+Transform{
+rotation 1 0 0 1.570796 
+translation	0 0 -0.02
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+ambientIntensity 0
+diffuseColor 1 1 1
+}
+
+}
+
+geometry Cylinder{
+height 0.001
+radius 9.30
+}
+}
+]
+}
+
+
+
+
+Transform{
+translation	0 0 0.01
+
+children[
+
+Inline{
+url "../bola_futebol_estadio.wrl"
+
+bboxSize 0.5 2.5 0.5
+}
+]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Transform{
+rotation 0 0 1 7.85
+
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 90 0.12 0.01
+}
+}
+]
+}
+
+
+Transform{
+rotation 0 0 1 7.854
+translation	-60.01 0 0
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 90 0.12 0.01
+}
+}
+]
+}
+
+
+Transform{
+rotation 0 0 1 7.854
+translation	60.01 0 0
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 90 0.12 0.01
+}
+}
+]
+}
+
+
+Transform{
+
+translation	0 45 0
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 120 0.12 0.01
+}
+}
+]
+}
+
+
+Transform{
+
+translation	0 -45 0
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 120 0.12 0.01
+}
+}
+]
+}
+
+
+Transform{
+rotation 0 0 1 7.85
+translation	-45.5 0 0
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 40.3 0.12 0.01
+}
+}
+]
+}
+
+Transform{
+rotation 0 0 1 7.85
+translation	45.5 0 0
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 40.3 0.12 0.01
+}
+}
+]
+}
+
+Transform{
+translation	-52.75 20 0
+children[
+Shape{
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 14.5 0.12 0.01
+
+}
+}
+]
+}
+
+Transform{
+translation	52.75 20 0
+children[
+Shape{
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 14.5 0.12 0.01
+
+}
+}
+]
+}
+
+Transform{
+translation	52.75 -20 0
+children[
+Shape{
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 14.5 0.12 0.01
+
+}
+}
+]
+}
+
+Transform{
+translation	-52.75 -20 0
+children[
+Shape{
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 14.5 0.12 0.01
+
+}
+}
+]
+}
+
+
+
+Transform{
+translation	-60 0 2.44
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Cylinder{
+radius 0.05
+height 7.32
+}
+}
+]
+}
+
+Transform{
+translation	60 0 2.44
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Cylinder{
+radius 0.05
+height 7.32
+}
+}
+]
+}
+
+Transform{
+rotation 1 0 0 7.85
+translation	-60 -3.62 1.17
+
+children[
+Shape{
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+}
+
+geometry Cylinder{
+radius 0.05
+height 2.45
+}
+}
+
+]
+}
+
+Transform{
+rotation 1 0 0 7.85
+translation	-60 3.61 1.17
+
+children[
+Shape{
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+}
+
+geometry Cylinder{
+radius 0.05
+height 2.45
+}
+}
+
+]
+}
+
+Transform{
+rotation 1 0 0 7.85
+translation	60 3.62 1.17
+
+children[
+Shape{
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+}
+
+geometry Cylinder{
+radius 0.05
+height 2.45
+}
+}
+
+]
+}
+
+Transform{
+rotation 1 0 0 7.85
+translation	60 -3.61 1.17
+
+children[
+Shape{
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+}
+
+geometry Cylinder{
+radius 0.05
+height 2.45
+}
+}
+
+]
+}
+
+
+
+Transform{
+rotation 1 0 0 7.85
+translation	-60 45 1.17
+
+children[
+Shape{
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+}
+
+geometry Cylinder{
+radius 0.05
+height 2.45
+}
+}
+
+]
+}
+
+Transform{
+rotation 1 0 0 7.85
+translation	-60 -45 1.17
+
+children[
+Shape{
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+}
+
+geometry Cylinder{
+radius 0.05
+height 2.45
+}
+}
+
+]
+}
+
+Transform{
+rotation 1 0 0 7.85
+translation	60 45 1.17
+
+children[
+Shape{
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+}
+
+geometry Cylinder{
+radius 0.05
+height 2.45
+}
+}
+
+]
+}
+
+Transform{
+rotation 1 0 0 7.85
+translation	60 -45 1.17
+
+children[
+Shape{
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+}
+
+geometry Cylinder{
+radius 0.05
+height 2.45
+}
+}
+
+]
+}
+
+Transform{
+rotation 0 0 1 7.85
+translation	-54.5 0 0
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 18.3 0.12 0.01
+}
+}
+]
+}
+
+Transform{
+rotation 0 0 1 7.85
+translation	54.5 0 0
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 18.3 0.12 0.01
+}
+}
+]
+}
+
+Transform{
+
+translation	-57.2 9.2 0
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 5.5 0.12 0.01
+}
+}
+]
+}
+
+Transform{
+
+translation	-57.2 -9.2 0
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 5.5 0.12 0.01
+}
+}
+]
+}
+
+Transform{
+
+translation	57.2 9.2 0
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 5.5 0.12 0.01
+}
+}
+]
+}
+
+Transform{
+
+translation	57.2 -9.2 0
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 5.5 0.12 0.01
+}
+}
+]
+}
+
+Transform{
+translation	-49 0 0
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor .61 .61 .61
+specularColor .77 .76 .76
+ambientIntensity .14
+shininess .9
+transparency 1
+}
+
+}
+
+geometry Sphere{
+radius 9.15
+}
+}
+]
+}
+
+Transform{
+translation	-49 0 0
+rotation 1 0 0 1.570796 
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Cylinder{
+height 0.001
+radius 0.24
+}
+}
+]
+}
+
+Transform{
+translation	49 0 0
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor .61 .61 .61
+specularColor .77 .76 .76
+ambientIntensity .14
+shininess .9
+transparency 1
+}
+
+}
+
+geometry Sphere{
+radius 9.15
+}
+}
+]
+}
+
+Transform{
+translation	49 0 0
+rotation 1 0 0 1.570796 
+
+children[
+
+Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Cylinder{
+height 0.001
+radius 0.24
+}
+}
+]
+}
+
+
+Transform{
+rotation 0 0 1 0.6
+translation	-44 -7.5 0
+
+children[
+
+DEF linhasCC3 Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 3.7 0.12 0.01
+}
+}
+]
+}
+
+Transform{
+rotation 0 0 1 -0.6
+translation	44 -7.5 0
+children[
+USE	linhasCC3
+
+
+]
+
+}
+
+
+Transform{
+rotation 0 0 1 7.25
+translation	-41.5 -5 0
+children[
+USE	linhasCC3
+
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 -7.25
+translation	41.5 -5 0
+children[
+USE	linhasCC3
+
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 7.65
+translation	-40.1 -1.7 0
+children[
+USE	linhasCC3
+
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 -7.65
+translation	40.1 -1.7 0
+children[
+USE	linhasCC3
+
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 8.1
+translation	-40.2 1.9 0
+children[
+USE	linhasCC3
+
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 -8.1
+translation	40.2 1.9 0
+children[
+USE	linhasCC3
+
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 5.3
+translation	-41.7 5.23 0
+children[
+USE	linhasCC3
+
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 -5.3
+translation	41.7 5.23 0
+children[
+USE	linhasCC3
+
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 5.7
+translation	-44 7.5 0
+children[
+USE	linhasCC3
+
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 -5.7
+translation	44 7.5 0
+children[
+USE	linhasCC3
+
+
+]
+
+}
+
+Transform{
+translation	-60 45 0
+children[
+
+DEF escanteio Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor .61 .61 .61
+specularColor .77 .76 .76
+ambientIntensity .14
+shininess .9
+transparency 1
+}
+
+}
+
+geometry Sphere{
+radius 1
+}
+}
+]
+}
+
+Transform{
+translation	-60 -45 0
+children[
+USE	escanteio
+
+]
+
+}
+
+Transform{
+translation	60 45 0
+children[
+USE	escanteio
+
+]
+
+}
+
+Transform{
+translation	60 -45 0
+children[
+USE	escanteio
+
+]
+
+}
+
+
+
+Transform{
+rotation 0 0 1 0.2
+translation	-59.77 44 0
+
+children[
+
+DEF linhasEscanteio Shape{
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+}
+
+}
+
+geometry Box{
+size 0.42 0.09 0.01
+}
+}
+]
+}
+
+Transform{
+rotation 0 0 1 0.65
+translation	-59.42 44.15 0
+children[
+USE	linhasEscanteio
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 0.99
+translation	-59.14 44.44 0
+children[
+USE	linhasEscanteio
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 1.4
+translation	-59 44.8 0
+children[
+USE	linhasEscanteio
+
+]
+
+}
+
+
+
+Transform{
+rotation 0 0 1 -0.2
+translation	59.77 44 0
+children[
+USE	linhasEscanteio
+
+]
+
+}
+
+
+Transform{
+rotation 0 0 1 -0.65
+translation	59.42 44.15 0
+children[
+USE	linhasEscanteio
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 -0.99
+translation	59.14 44.44 0
+children[
+USE	linhasEscanteio
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 -1.4
+translation	59 44.8 0
+children[
+USE	linhasEscanteio
+
+]
+
+}
+
+
+
+Transform{
+rotation 0 0 1 0.2
+translation	59.77 -44 0
+children[
+USE	linhasEscanteio
+
+]
+
+}
+
+
+Transform{
+rotation 0 0 1 0.65
+translation	59.42 -44.15 0
+children[
+USE	linhasEscanteio
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 0.99
+translation	59.14 -44.44 0
+children[
+USE	linhasEscanteio
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 1.4
+translation	59 -44.8 0
+children[
+USE	linhasEscanteio
+
+]
+
+}
+
+
+
+Transform{
+rotation 0 0 1 -0.2
+translation	-59.77 -44 0
+children[
+USE	linhasEscanteio
+
+]
+
+}
+
+
+Transform{
+rotation 0 0 1 -0.65
+translation	-59.42 -44.15 0
+children[
+USE	linhasEscanteio
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 -0.99
+translation	-59.14 -44.44 0
+children[
+USE	linhasEscanteio
+
+]
+
+}
+
+Transform{
+rotation 0 0 1 -1.4
+translation	-59 -44.8 0
+children[
+USE	linhasEscanteio
+
+]
+
+}
+
+
+
+Transform{
+rotation 1 0 0 1.6
+translation	-60 45 1.2
+scale 0.4 0.4 0.4
+
+children[
+
+DEF bandeirinhas Shape{
+geometry IndexedFaceSet{
+coord Coordinate{
+point[0 3 0,
+0 0 0,
+3 1.5 0]
+}
+
+coordIndex[0,1,2,-1,
+2,1,0,-1]
+
+solid TRUE
+}
+
+appearance Appearance{
+material Material{
+diffuseColor 1 1 1
+ambientIntensity 0
+shininess 0
+}
+}
+}
+]
+}
+
+Transform{
+rotation 1 0 0 1.6
+translation	60 45 1.2
+scale 0.4 0.4 0.4
+children[
+USE	bandeirinhas
+
+]
+
+}
+
+Transform{
+rotation 1 0 0 1.6
+translation	60 -45 1.2
+scale 0.4 0.4 0.4
+children[
+USE	bandeirinhas
+
+]
+
+}
+
+Transform{
+rotation 1 0 0 1.6
+translation	-60 -45 1.2
+scale 0.4 0.4 0.4
+children[
+USE	bandeirinhas
+
+]
+
+}
+
+
+
+Transform{
+rotation 1 0 0 1.54
+translation	1 78 -1.1	
+scale 20 3 3
+
+children[
+
+DEF arquibancada Shape{
+geometry IndexedFaceSet{
+coord Coordinate{
+point[3 0 0,
+3 0 7,
+-3 0 7,
+-3 0 0,
+3 4 0,
+-3 4 0]
+}
+
+coordIndex[3,2,5,3,-1,
+5,2,1,4,5 -1,
+1,0,4,1,-1,
+3,5,4,0,3,-1,
+3,0,1,2,3,-1
+]
+
+solid TRUE
+}
+
+appearance Appearance{
+material	Material{
+}
+}
+}
+]
+}
+
+
+
+
+Transform{
+rotation 1 0 0 1.6
+translation	0 -78 -1	
+
+children[
+Transform{
+rotation 0 1 0 3.14
+
+scale 20 3 3
+
+children[
+USE arquibancada
+]
+}
+]
+}
+
+
+
+Transform{
+rotation 1 0 0 1.57
+translation	-92 -1.8 -1 
+
+
+children[
+Transform{
+rotation 0 1 0 -4.715
+
+scale 16.7 3 3
+
+children[
+USE arquibancada
+]
+}
+]
+}
+
+
+
+Transform{
+rotation 1 0 0 1.57
+translation 92 -1.8 -1	
+
+
+children[
+Transform{
+rotation 0 1 0 4.715
+
+scale 16.7 3 3
+
+children[
+USE arquibancada
+]
+}
+]
+}
+
+
+
+
+
+Transform{
+rotation 1 0 0 1.6
+translation	-89 57 -0.7
+scale 3 3 3
+
+children[
+Transform{
+rotation 0 1 0 1.25
+children[
+DEF arquibancadaCurva Shape{
+geometry IndexedFaceSet{
+coord Coordinate{
+point[3 0 0,
+2 0 7,
+-2 0 7,
+-3 0 0,
+3 4 0,
+-3 4 0]
+}
+
+coordIndex[3,2,5,3,-1,
+5,2,1,4,5 -1,
+1,0,4,1,-1,
+3,5,4,0,3,-1,
+3,0,1,2,3,-1
+]
+
+solid TRUE
+}
+
+appearance Appearance{
+material Material{
+
+}
+}
+}
+]
+}
+]
+}
+
+
+
+Transform{
+rotation 1 0 0 1.55
+translation	-67 76.3 -1.2
+
+
+children[
+Transform{
+rotation 0 1 0 0.21
+scale 3 3 3
+
+children[
+USE arquibancadaCurva
+]
+}
+]
+}
+
+
+
+
+Transform{
+rotation 1 0 0 1.54
+translation	89.2 56 -1.3
+
+
+children[
+Transform{
+rotation 0 1 0 -1.25
+scale 3 3 3
+
+children[
+USE arquibancadaCurva
+]
+}
+]
+}
+
+
+Transform{
+rotation 1 0 0 1.5
+translation	69 76 -1.2
+
+
+children[
+Transform{
+rotation 0 1 0 6.05
+scale 3 3 3
+
+children[
+USE arquibancadaCurva
+]
+}
+]
+}
+
+
+
+Transform{
+rotation 1 0 0 1.6
+translation	-89.3 -60.2 -1.2
+
+
+children[
+Transform{
+rotation 0 1 0 1.9
+scale 3 3 3
+
+children[
+USE arquibancadaCurva
+]
+}
+]
+}
+
+
+Transform{
+rotation 1 0 0 1.6
+translation	-68.7 -76.7 -0.93
+
+
+children[
+Transform{
+rotation 0 1 0 3
+scale 3 3 3
+
+children[
+USE arquibancadaCurva
+]
+}
+]
+}
+
+
+Transform{
+rotation 1 0 0 1.6
+translation	89.35 -59.8 -1.2
+
+
+children[
+Transform{
+rotation 0 1 0 -1.9
+scale 3 3 3
+
+children[
+USE arquibancadaCurva
+]
+}
+]
+}
+
+
+Transform{
+rotation 1 0 0 1.6
+translation	68.7 -76.7 -0.95
+
+
+children[
+Transform{
+rotation 0 1 0 3.3
+scale 3 3 3
+
+children[
+USE arquibancadaCurva
+]
+}
+]
+}
+
+
+
+
+
+Transform{
+rotation 1 0 0 1.55
+translation	-80 70 -0.6
+scale 3 3 3
+
+children[
+Transform{
+rotation 0 1 0 0.71
+
+children[
+DEF quinasARQ Shape{
+geometry IndexedFaceSet{
+coord Coordinate{
+point[-2.5 0 0,
+-2.5 4 0,
+2.5 0 0,
+2.5,4,0,
+0,0,6]
+}
+
+coordIndex[0,1,4,0,-1,
+0,4,1,0,-1,
+1,3,4,1,-1,
+1,4,3,1,-1,
+4,3,2,4,-1,
+4,2,3,4,-1,
+0,2,4,0,-1,
+0,4,2,0,-1,
+0,1,3,2,0,-1]
+
+solid TRUE
+}
+
+appearance Appearance{
+material Material{
+ambientIntensity 0
+shininess 0
+}
+}
+}
+
+]
+
+}
+
+]
+}
+
+
+
+Transform{
+rotation 1 0 0 1.5
+translation -82 -72 -0.9
+
+
+children[
+Transform{
+rotation 0 1 0 2.4
+scale 3 3 3
+
+children[
+USE quinasARQ
+]
+}
+]
+}
+
+
+
+
+Transform{
+rotation 1 0 0 1.5
+translation 82 67.9 -0.7
+
+
+children[
+Transform{
+rotation 0 1 0 5.43
+scale 3 3 3
+
+children[
+USE quinasARQ
+]
+}
+]
+}
+
+
+
+Transform{
+rotation 1 0 0 1.5
+translation 82 -72 -0.9
+
+
+children[
+Transform{
+rotation 0 1 0 3.8
+scale 3 3 3
+
+children[
+USE quinasARQ
+]
+}
+]
+}
+
+
+
+
+
+Transform{
+translation -1 -3 -1.5
+children[
+Inline{
+url "../filacadeiras_arquibancadas.wrl"
+}
+]
+}
+
+Transform{
+translation -1 -1.5 -0.8
+children[
+Inline{
+url "../filacadeiras_arquibancadas.wrl"
+}
+]
+}
+
+Transform{
+translation -1 0.3 0.1
+children[
+Inline{
+url "../filacadeiras_arquibancadas.wrl"
+}
+]
+}
+
+Transform{
+translation -1 2 1
+children[
+Inline{
+url "../filacadeiras_arquibancadas.wrl"
+}
+]
+}
+
+Transform{
+translation -1 3.5 1.9
+children[
+Inline{
+url "../filacadeiras_arquibancadas.wrl"
+}
+]
+}
+
+Transform{
+translation -1 5.3 2.8
+children[
+Inline{
+url "../filacadeiras_arquibancadas.wrl"
+}
+]
+}
+
+Transform{
+translation -1 7 3.7
+children[
+Inline{
+url "../fila_cadeiras_verdes.wrl"
+}
+]
+}
+
+Transform{
+translation -1 8.8 4.7
+children[
+Inline{
+url "../fila_cadeiras_verdes.wrl"
+}
+]
+}
+
+Transform{
+translation -1 10.8 5.7
+children[
+Inline{
+url "../fila_cadeiras_verdes.wrl"
+}
+]
+}
+
+Transform{
+translation -1 12.5 6.7
+children[
+Inline{
+url "../fila_cadeiras_verdes.wrl"
+}
+]
+}
+
+Transform{
+translation -1 14.5 7.8
+children[
+Inline{
+url "../fila_cadeiras_verdes.wrl"
+}
+]
+}
+
+Transform{
+translation -1 16.5 8.8
+children[
+Inline{
+url "../fila_cadeiras_verdes.wrl"
+}
+]
+}
+
+
+
+
+Transform{
+rotation 0 0 1 1.57
+translation -13 -2 -0.3
+children[
+Inline{
+url "../filacadeiras_arquibancadas_2.wrl"
+}
+]
+}
+
+
+
+Transform{
+rotation 0 0 1 4.71
+translation 12.8 -2 -0.4
+children[
+Inline{
+url "../filacadeiras_arquibancadas_2.wrl"
+}
+]
+}
+
+
+
+
+Transform{
+rotation 0 0 1 3.14
+translation -1 0 0.2
+children[
+Inline{
+url "../cadeiras_arquibancada_up_down.wrl"
+}
+]
+}
+
+
+Transform{
+
+rotation 0 0 1 3.3
+translation 1.2 -8 0.05
+
+children[
+Inline{
+url "../conjuntoCadeiras_quinas.wrl"
+}
+]
+}
+
+Transform{
+
+rotation 0 0 1 3
+translation -111 8.5 0.05
+
+children[
+Inline{
+url "../conjuntoCadeiras_quinas.wrl"
+}
+]
+}
+
+
+
+Transform{
+
+rotation 0 0 1 6.05
+translation 104.5 -12.5 0.5
+
+children[
+Inline{
+url "../conjuntoCadeiras_quinas.wrl"
+}
+]
+}
+
+
+
+Transform{
+
+rotation 0 0 1 5
+translation 30 -18 0.1
+
+children[
+Inline{
+url "../conjuntoCadeiras_quinas.wrl"
+}
+]
+}
+
+Transform{
+
+rotation 0 0 1 6.5
+translation 1.7 12.1 0.01
+
+children[
+Inline{
+url "../conjuntoCadeiras_quinas.wrl"
+}
+]
+}
+
+
+Transform{
+
+rotation 0 0 1 7.58
+translation 1.3 89 0.5
+
+children[
+Inline{
+url "../conjuntoCadeiras_quinas.wrl"
+}
+]
+}
+
+
+
+Transform{
+
+rotation 0 0 1 8
+translation -20.5 5.5 0.5
+
+children[
+Inline{
+url "../conjuntoCadeiras_quinas.wrl"
+}
+]
+}
+
+
+Transform{
+
+rotation 0 0 1 4.5
+translation 1.5 -98 0.4
+
+children[
+Inline{
+url "../conjuntoCadeiras_quinas.wrl"
+}
+]
+}
+
+Transform{
+translation	1 0 0 1.4
+translation	0 15 0
+scale 10 10 10
+
+children[
+Shape{
+appearance Appearance{
+material Material{
+diffuseColor .23 .39 .19
+specularColor .2 .3 .29
+ambientIntensity .06
+shininess .39
+}
+}
+geometry Text{
+string "KONYA"
+}
+}
+]
+}
+
+Viewpoint{
+position 0 -60 100
+
+}

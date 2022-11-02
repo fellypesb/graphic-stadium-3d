@@ -1,0 +1,25 @@
+#VRML V2.0 utf8
+Shape {
+
+	appearance Appearance {
+				texture ImageTexture {
+					url "Cylinder_texture.png"
+				}
+					
+	}
+
+	appearance Appearance {
+				texture ImageTexture {
+					url "texture_3.png"
+				}
+					
+	}
+	
+	
+	geometry Cylinder {
+
+	radius 1.5
+	height 0.2
+
+	}
+}

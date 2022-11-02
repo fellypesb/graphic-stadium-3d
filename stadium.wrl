@@ -19,7 +19,7 @@ Group {
 							scale 1 0.83 0.75
 							children [
 								Inline {
-											url	"C:\Users\felly\Documents\2022.1\Computação Gráfica\estadio\Parte externa/Faces/face_lateral_conj.wrl"
+											url	"./Parte externa/Faces/face_lateral_conj.wrl"
 										}	
 							]
 						}
@@ -36,7 +36,7 @@ Group {
 									scale 1 0.83 0.75
 									children [
 										Inline {
-											url	"C:\Users\felly\Documents\2022.1\Computação Gráfica\estadio\Parte externa/Faces/face_lateral_conj.wrl"
+											url	"./Parte externa/Faces/face_lateral_conj.wrl"
 										}	
 									]
 								}
@@ -50,7 +50,7 @@ Group {
 							scale 1 0.83 0.78
 							children [
 								Inline {
-											url	"C:\Users\felly\Documents\2022.1\Computação Gráfica\estadio\Parte externa/Faces/face_lateral_conj.wrl"
+											url	"./Parte externa/Faces/face_lateral_conj.wrl"
 										}	
 							]
 						}
@@ -66,7 +66,7 @@ Group {
 									scale 1 0.83 0.78
 									children [
 										Inline {
-											url	"C:\Users\felly\Documents\2022.1\Computação Gráfica\estadio\Parte externa/Faces/face_lateral_conj.wrl"
+											url	"./Parte externa/Faces/face_lateral_conj.wrl"
 										}	
 									]
 								}
@@ -84,7 +84,7 @@ Group {
 									rotation 1 0 0 -0.5
 									children [
 										Inline {
-											url	"C:\Users\felly\Documents\2022.1\Computação Gráfica\estadio\Parte externa/Cobertura/Cobertura.wrl"
+											url	"./Parte externa/Cobertura/Cobertura.wrl"
 										}	
 			
 									]
@@ -98,7 +98,7 @@ Group {
 								translation	0.7 -2 -1.5
 								children [
 									Inline {
-										url	"C:\Users\felly\Documents\2022.1\Computação Gráfica\estadio\Parte externa/Chão/Chão.wrl"
+										url	"./Parte externa/Chão/Chão.wrl"
 									}	
 		
 								]
@@ -120,7 +120,7 @@ Transform {
 
 			appearance Appearance {
 				texture	ImageTexture {
-					url	"C:\Users\felly\Documents\2022.1\Computação Gráfica\texture\textura_grama.jpg"
+					url	".\texture\textura_grama.jpg"
 				}
 
 				textureTransform TextureTransform {
@@ -148,12 +148,10 @@ Transform {
 
 			appearance Appearance {
 				texture	ImageTexture {
-					url	"C:\Users\felly\Documents\2022.1\Computação Gráfica\texture\textura_grama.jpg"
+					url	".\texture\textura_grama.jpg"
 				}
 
 				textureTransform TextureTransform {
-					center 0 0
-					rotation 0
 					scale 5 5
 					
 				}
@@ -176,7 +174,7 @@ Transform {
 
 			appearance Appearance {
 				texture	ImageTexture {
-					url	"C:\Users\felly\Documents\2022.1\Computação Gráfica\texture\textura_track.jpg"
+					url	".\texture\textura_track.jpg"
 				}
 
 				textureTransform TextureTransform {
@@ -254,7 +252,7 @@ Transform {
 
 			appearance Appearance {
 				texture	ImageTexture {
-					url	"C:\Users\felly\Documents\2022.1\Computação Gráfica\texture\textura_grama.jpg"
+					url	".\texture\textura_grama.jpg"
 				}
 
 				textureTransform TextureTransform {
@@ -307,161 +305,12 @@ Transform {
 	children [
 
 		Inline {
-			url "../bola_futebol_estadio.wrl"
+			url "bola_futebol_estadio.wrl"
 			#bboxCenter 0 0 0 
 			bboxSize 0.5 2.5 0.5
 		}
 	]
 }
-
-
-#Transform {
-#	rotation 0 0 1 0.79 
-#	translation	-6.5 6.5 0
-	
-#	children [
-
-#		DEF linhasCC1 Shape {
-
-#			appearance Appearance {
-#				material Material {
-#					diffuseColor 1 1 1
-#					ambientIntensity 0
-#				}
-			
-#			}
-
-#			geometry Box	{
-#				size 6 0.12 0.01
-#			}
-#		}
-#	]
-#}
-
-#Transform {
-#	rotation 0 0 1 0.23
-#	translation	-2.2 9.15 0
-	
-#	children [
-
-#		DEF linhasCC2 Shape {
-
-#			appearance Appearance {
-#				material Material {
-#					diffuseColor 1 1 1
-#					ambientIntensity 0
-#				}
-			
-#			}
-
-#			geometry Box	{
-#				size 4.7 0.12 0.01
-#			}
-#		}
-#	]
-#}
-
-#Transform {
-#	rotation 0 0 1 -0.79 
-#	translation	6.5 6.5 0
-#	children [
-#		USE	linhasCC1
-	
-	
-#	]
-
-#}
-
-#Transform {
-#	rotation 0 0 1 -0.79 
-#	translation	-6.5 -6.5 0
-#	children [
-#		USE	linhasCC1
-	
-	
-#	]
-
-#}
-
-#Transform {
-#	rotation 0 0 1 0.79 
-#	translation	6.5 -6.5 0
-#	children [
-#		USE	linhasCC1
-	
-	
-#	]
-
-#}
-
-#Transform {
-#	rotation 0 0 1 7.6 
-#	translation	-9.2 2.15 0
-#	children [
-#		USE	linhasCC2
-	
-	
-#	]
-
-#}
-
-#Transform {
-#	rotation 0 0 1 -7.6 
-#	translation	9.2 2.15 0
-#	children [
-#		USE	linhasCC2
-	
-	
-#	]
-
-#}
-
-#Transform {
-#	rotation 0 0 1 -7.6 
-#	translation	-9.2 -2.15 0
-#	children [
-#		USE	linhasCC2
-	
-	
-#	]
-
-#}
-
-#Transform {
-#	rotation 0 0 1 7.6 
-#	translation	9.2 -2.15 0
-#	children [
-#		USE	linhasCC2
-	
-	
-#	]
-
-#}
-
-
-#Transform {
-#	rotation 0 0 1 -0.23
-#	translation	2.2 9.15 0
-#	children [
-#		USE	linhasCC2
-#	]
-#}
-
-#Transform {
-#	rotation 0 0 1 -0.23
-#	translation	-2.2 -9.15 0
-#	children [
-#		USE	linhasCC2
-#	]
-#}
-
-#Transform {
-#	rotation 0 0 1 0.23
-#	translation	2.2 -9.15 0
-#	children [
-#		USE	linhasCC2
-#	]
-#}
 
 #linha central
 Transform {
@@ -2009,7 +1858,7 @@ Transform {
 	translation -1 -3 -1.5
 	children [
 		Inline {
-			url "../filacadeiras_arquibancadas.wrl"
+			url "filacadeiras_arquibancadas.wrl"
 		}
 	]
 }
@@ -2018,7 +1867,7 @@ Transform {
 	translation -1 -1.5 -0.8
 	children [
 		Inline {
-			url "../filacadeiras_arquibancadas.wrl"
+			url "filacadeiras_arquibancadas.wrl"
 		}
 	]
 }
@@ -2027,7 +1876,7 @@ Transform {
 	translation -1 0.3 0.1
 	children [
 		Inline {
-			url "../filacadeiras_arquibancadas.wrl"
+			url "filacadeiras_arquibancadas.wrl"
 		}
 	]
 }
@@ -2036,7 +1885,7 @@ Transform {
 	translation -1 2 1
 	children [
 		Inline {
-			url "../filacadeiras_arquibancadas.wrl"
+			url "filacadeiras_arquibancadas.wrl"
 		}
 	]
 }
@@ -2045,7 +1894,7 @@ Transform {
 	translation -1 3.5 1.9 
 	children [
 		Inline {
-			url "../filacadeiras_arquibancadas.wrl"
+			url "filacadeiras_arquibancadas.wrl"
 		}
 	]
 }
@@ -2054,7 +1903,7 @@ Transform {
 	translation -1 5.3 2.8
 	children [
 		Inline {
-			url "../filacadeiras_arquibancadas.wrl"
+			url "filacadeiras_arquibancadas.wrl"
 		}
 	]
 }
@@ -2063,7 +1912,7 @@ Transform {
 	translation -1 7 3.7
 	children [
 		Inline {
-			url "../fila_cadeiras_verdes.wrl"
+			url "fila_cadeiras_verdes.wrl"
 		}
 	]
 }
@@ -2072,7 +1921,7 @@ Transform {
 	translation -1 8.8 4.7
 	children [
 		Inline {
-			url "../fila_cadeiras_verdes.wrl"
+			url "fila_cadeiras_verdes.wrl"
 		}
 	]
 }
@@ -2081,7 +1930,7 @@ Transform {
 	translation -1 10.8 5.7
 	children [
 		Inline {
-			url "../fila_cadeiras_verdes.wrl"
+			url "fila_cadeiras_verdes.wrl"
 		}
 	]
 }
@@ -2090,7 +1939,7 @@ Transform {
 	translation -1 12.5 6.7
 	children [
 		Inline {
-			url "../fila_cadeiras_verdes.wrl"
+			url "fila_cadeiras_verdes.wrl"
 		}
 	]
 }
@@ -2099,7 +1948,7 @@ Transform {
 	translation -1 14.5 7.8
 	children [
 		Inline {
-			url "../fila_cadeiras_verdes.wrl"
+			url "fila_cadeiras_verdes.wrl"
 		}
 	]
 }
@@ -2108,7 +1957,7 @@ Transform {
 	translation -1 16.5 8.8
 	children [
 		Inline {
-			url "../fila_cadeiras_verdes.wrl"
+			url "fila_cadeiras_verdes.wrl"
 		}
 	]
 }
@@ -2121,7 +1970,7 @@ Transform {
 	translation -13 -2 -0.3
 	children [
 		Inline {
-			url "../filacadeiras_arquibancadas_2.wrl"
+			url "filacadeiras_arquibancadas_2.wrl"
 		}
 	]
 }
@@ -2133,7 +1982,7 @@ Transform {
 	translation 12.8 -2 -0.4
 	children [
 		Inline {
-			url "../filacadeiras_arquibancadas_2.wrl"
+			url "filacadeiras_arquibancadas_2.wrl"
 		}
 	]
 }
@@ -2146,7 +1995,7 @@ Transform {
 	translation -1 0 0.2
 	children [
 		Inline {
-			url "../cadeiras_arquibancada_up_down.wrl"
+			url "cadeiras_arquibancada_up_down.wrl"
 		}
 	]
 }
@@ -2159,7 +2008,7 @@ Transform {
 
 	children [
 		Inline {
-			url "../conjuntoCadeiras_quinas.wrl"
+			url "conjuntoCadeiras_quinas.wrl"
 		}
 	]
 }
@@ -2171,7 +2020,7 @@ Transform {
 
 	children [
 		Inline {
-			url "../conjuntoCadeiras_quinas.wrl"
+			url "conjuntoCadeiras_quinas.wrl"
 		}
 	]
 }
@@ -2185,7 +2034,7 @@ Transform {
 
 	children [
 		Inline {
-			url "../conjuntoCadeiras_quinas.wrl"
+			url "conjuntoCadeiras_quinas.wrl"
 		}
 	]
 }
@@ -2199,7 +2048,7 @@ Transform {
 
 	children [
 		Inline {
-			url "../conjuntoCadeiras_quinas.wrl"
+			url "conjuntoCadeiras_quinas.wrl"
 		}
 	]
 }
@@ -2211,7 +2060,7 @@ Transform {
 
 	children [
 		Inline {
-			url "../conjuntoCadeiras_quinas.wrl"
+			url "conjuntoCadeiras_quinas.wrl"
 		}
 	]
 }
@@ -2224,7 +2073,7 @@ Transform {
 
 	children [
 		Inline {
-			url "../conjuntoCadeiras_quinas.wrl"
+			url "conjuntoCadeiras_quinas.wrl"
 		}
 	]
 }
@@ -2238,7 +2087,7 @@ Transform {
 
 	children [
 		Inline {
-			url "../conjuntoCadeiras_quinas.wrl"
+			url "conjuntoCadeiras_quinas.wrl"
 		}
 	]
 }
@@ -2251,7 +2100,7 @@ Transform {
 
 	children [
 		Inline {
-			url "../conjuntoCadeiras_quinas.wrl"
+			url "conjuntoCadeiras_quinas.wrl"
 		}
 	]
 }
@@ -2365,6 +2214,6 @@ Transform {
 
 
 Viewpoint {
-	position 0 -60 100
+	position 0 0 100
 
 }

@@ -1,0 +1,41 @@
+#VRML V2.0 utf8
+
+Transform {
+	children [
+		Inline {
+				url	"face_lateral_und.wrl"
+				}
+	]
+}
+
+#Transform {
+	#translation	0.7 0 -3.9
+	#rotation 0 1 0 -0.1
+	#children [
+	#	Inline {
+	#			url	"face_lateral_und.wrl"
+	#			}
+	#]
+#}
+
+Transform {
+	translation	2 0 -3.5
+	rotation 0 1 0 -0.3
+	children [
+
+		Inline {
+				url	"face_lateral_und.wrl"
+				}
+	]
+}
+
+Transform {
+	translation	-0.9 0 3.95
+	rotation 0 1 0 0.3
+	children [
+		Inline {
+				url	"face_lateral_und.wrl"
+				}
+	]
+}
+
