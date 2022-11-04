@@ -1,2 +1,2 @@
-# graphic-stadium-3d
+# model-stadium-3d
 Projeto Computação Gráfica
